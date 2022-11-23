@@ -1,0 +1,182 @@
+body{
+  width: 93%;
+  margin-left: 2%;
+}
+.row{
+    /* height: 66px; */
+}
+.logo{
+    height:20px;
+    margin-left:10%;
+    margin-top:10%;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  #jordan{
+    position: relative;
+    background-color: #f1f3f4;
+    width: 107.7%;
+    font-size: small;
+    margin-left: -2.3%;
+    padding: 0px 14px;
+    text-align: center;
+  }
+  #jdtxt{
+    border-right: groove;
+    /* text-align: center; */
+    padding: 8px 5px;
+    /* color: black; */
+  }
+  #jdtxt>a{
+    color: black;
+  }
+  h6{
+    font-weight: inherit;
+  }
+  a{
+    text-decoration: none;
+    /* color: #757575; */
+  }
+  #searchh{
+    border: 4px solid gray;
+    border-radius: 27px
+  }
+  #srchbx{
+    border: none;
+    border-radius: 19px;
+  }
+  #srchsym{
+    border-radius: 15px;
+    padding: 4px 6px;
+  }
+  #blank{
+    height: 31px;
+    background-color: #f1f3f4;
+    margin-left: -3%;
+    width: 108.4%;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  * {box-sizing:border-box}
+  .carousel-item{
+    text-align: center;
+  }
+  #featured{
+    /* margin-left: 2%; */
+  }
+  #featu{
+    text-align: center;
+    color: black;
+  }
+  #electrify{
+    font-weight: 900;
+    /* line-height: 30px; */
+  }
+  #trending{
+    /* margin-left: 4.5%; */
+  }
+  #trendu{
+    text-align: center;
+    color: #111;
+  }
+  #unwrap{
+    font-weight: 900;
+  }
+  #gear1,#gear2{
+    border-radius:30px;
+    background-color: #111;
+    color: #fff;
+    padding: 6px 20px;
+  }
+  #trend1{
+    border-radius:30px;
+    background-color: #111;
+    color: #fff;
+    padding: 6px 20px;
+    text-align: center;
+  }
+  #pace{
+    border-radius: 24px;
+    height: 48px;
+    width: 48px;
+    color: black;
+  }
+  #menbtn{
+    background-color: #1b181c;
+    color: #fff6ef;
+  }
+  #womenbtn{
+    background-color: #b08dad;
+    color: #a1172c
+  }
+  #kidsbtn{
+    background-color: #1326a3;
+    color: #fde095;
+  }
+  #other{
+    margin-left: 14%;
+    margin-right: 10%;
+  }
+  .card{
+    border: none;
+  }
+  .card-title{
+    color: #111;
+  }
+  .card-text{
+    color: gray;
+  }
+  #footer{
+    background-color: black;
+    width: 108%;
+    margin-left: -3%;
+    font-size: smaller;
+  }
+  #foot1{
+    color: #e9e1e1;
+    font-family: fantasy;
+  }
+  #f1{
+    margin-left: 2%;
+  }
+  #copyright{
+    padding: 18px 0px;
+    color: white;
+  }
+  #f2{
+    color: gray;
+    margin-left: 2%;
+  }
+  #foottxt{
+    color: #757575;
+  }

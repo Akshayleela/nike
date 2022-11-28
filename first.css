@@ -60,11 +60,50 @@ body{
     margin-left: -3%;
     width: 108.4%;
   }
+  #coupon{
+    height: 100%;
+    width: 100%;
+    z-index:1;
+    margin:auto;
+    background: rgba(15,15,15,0.6);
+    position: fixed;
+    text-align: center;
+    /* margin-top: -10.5%; */
+}
+#cdbdy{
+    width:fit-content;
+    margin: auto;
+}
+.close{
+  /* /* margin-top: 2%; */
+  margin-left:-5%;
+  z-index: 1;
+  border: none;
+  font-size: x-large;
+  color: black;
+}
+.closecoupon{
+    margin-top: 17%;
+    box-shadow: 0px 0px 21px powderblue;
+    border: solid 3px #f2fdff
+}
+.couptxt{
+    background-color: black;
+    color: aquamarine;
+    margin: auto;
+    font-family:'Courier New', Courier, monospace;
+}
+.mydark{
+   background-color: black;
+   color: white;
+}
   .dropdown {
     position: relative;
     display: inline-block;
   }
-  
+  .btn{
+    color: currentColor;
+  }
   .dropdown-content {
     display: none;
     position: absolute;
@@ -86,17 +125,13 @@ body{
   .dropdown:hover .dropdown-content {display: block;}
   
   .dropdown:hover .dropbtn {background-color: #3e8e41;}
-
-  * {box-sizing:border-box}
+ /* {box-sizing:border-box} */
   .carousel-item{
     text-align: center;
   }
-  #featured{
-    /* margin-left: 2%; */
-  }
   #featu{
     text-align: center;
-    color: black;
+    /* color: black; */
   }
   #electrify{
     font-weight: 900;
@@ -107,7 +142,7 @@ body{
   }
   #trendu{
     text-align: center;
-    color: #111;
+    /* color: #111; */
   }
   #unwrap{
     font-weight: 900;
@@ -129,7 +164,6 @@ body{
     border-radius: 24px;
     height: 48px;
     width: 48px;
-    color: black;
   }
   #menbtn{
     background-color: #1b181c;
@@ -179,4 +213,7 @@ body{
   }
   #foottxt{
     color: #757575;
+  }
+  .img-fluid{
+    width: -webkit-fill-available;
   }

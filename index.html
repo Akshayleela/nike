@@ -11,10 +11,24 @@
         <script src="first.js" ></script>
     </head>
     <body>
+       <!-- Coupon Page-->
+    <div id="coupon" class="container-fluid">
+      <div class="card-body" id="cdbdy">
+      <img src="images/pace6.webp" class="img-fluid" style="position:relative ;" alt="pace6"/>
+      <button onclick="closecoupon()" style="position:absolute ;" class="close">&bigotimes;</button>
+        <div class="couptxt">
+          <p >Get 10% OFF</p>
+          <p >UseCode:<span class="bg-danger">10OFF</span></p>
+        </div>
+      </div>
+    </div>
+    <script>
+      window.onload = loadcoupon()
+    </script>
         <!--navigation bar-->
         <div class="row" id="jordan">
           <div class="col-sm-1">
-            <img src="images/Jordan.png" class="img-fluid logo" alt="Jordan">
+            <img src="images/Jordan.png" class="logo" alt="Jordan">
           </div>
           <div class="col-sm-7"></div>
           <div class="col-sm-1" id="jdtxt">
@@ -27,7 +41,7 @@
             <a href="#">Join Us</a>
           </div>
           <div class="col-sm-1">
-              <div class="btn dropdown " data-bs-toggle="dropdown">Sign In
+              <div class="btn dropdown " style="color:black ;" data-bs-toggle="dropdown">Sign In
               </div> 
               <form class="dropdown-menu">
                   <div class="form-group">
@@ -39,12 +53,12 @@
               </form>
           </div>
         </div>
-        <div class="row">
+        <div class="container-fluid row">
         <nav class='navbar navbar-inverse'>
-        <div class="navbar-header col-sm-1"> 
-            <a class='navbar-brand' href='javascript:void(0)'><img src="images/nikelogo.png" class='img-fluid logo'/></a>
+        <div class="navbar-header-fixed col-sm-1"> 
+            <a class='navbar-brand' href='javascript:void(0)'><img src="images/nikelogo.png" class='logo'/></a>
         </div>
-        <div class="col-sm-2"></div>
+        <div class="col-sm-1"></div>
             <div class="dropdown col-sm-1 text-start">
                 <button class="btn btn-outline ">Men</button>
                     <div class="dropdown-content ">
@@ -86,8 +100,8 @@
             <input class="form-control"id="srchbx" type='text' placeholder="Search">
             </div>  
           </form>
-          <div class="col-sm-1 row">
-            <div class="col-sm-8 text-end">
+          <div class="col-sm-2 row">
+            <div class="col-sm-4 text-end">
             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
               <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
             </svg></a>
@@ -96,6 +110,12 @@
             <a href="#"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
               <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
             </svg></a>
+            </div>
+            <!-- Dark light mode -->
+            <div class="col-sm-4 text-end">
+              <button class="btn btn-light mode" onclick="changeMode()"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="Color" class="bi bi-circle-half" viewBox="0 0 16 16">
+                <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+              </svg></button>
             </div>
           </div>
         </nav>
@@ -109,7 +129,7 @@
         <!-- featured -->
         <div class="container-fluid mt-5" id="featured">
             <h4>Featured</h4>
-            <a href="https://www.nike.com/in/w/generation-pack-6tlg4"><img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1253,c_limit/80fd8e85-5db5-4231-bbe7-f17dc933b797/nike-just-do-it.jpg" class="img-fluid mt-3" alt="featuredshoes"></a>
+            <a href="https://www.nike.com/in/w/generation-pack-6tlg4"><img src="images/featured.png" class="img-fluid mt-3" alt="featuredshoes"></a>
             <div class="container mt-5" id="featu">
                 <h6 style="margin-bottom: 0;">Just In:Generation Pack</h6>
                 <h1 class="display-4" id="electrify">ELECTRIFY THE GAME</h1>
@@ -123,7 +143,7 @@
         <!-- Trending -->
         <div class="container-fluid mt-5" id="trending">
             <h4>Trending</h4>
-            <a href="https://www.nike.com/in/w/most-wanted-kicks-2lhy4"><img src="https://static.nike.com/a/images/f_auto/dpr_1.0,cs_srgb/w_1253,c_limit/beba11dc-27f3-4fac-97cc-560674ebfe6f/nike-just-do-it.png" class="img-fluid mt-3" alt="trending"></a>
+            <a href="https://www.nike.com/in/w/most-wanted-kicks-2lhy4"><img src="images/trending.webp" class="img-fluid mt-3" alt="trending"></a>
             <div class="container mt-5" id="trendu">
                 <h6 style="margin-bottom: 0;">Must have Kicks</h6>
                 <h1 class="display-4" id="unwrap">UNWRAP STYLE</h1>
@@ -165,12 +185,8 @@
                 <div class="col-6">
                     <h2>Pace Pack</h2></div>
                 <div class="col-6 text-end">
-                    <button class="btn btn-outline-secondary" id="pace" data-bs-slide="prev" aria-hidden="true" data-bs-target="#pacepackimg" tabindex="-1" ><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
-                    </svg></button>
-                    <button class="btn btn-outline-secondary" id="pace" aria-hidden="true" data-bs-target="#pacepackimg" tabindex="-1" data-bs-slide="next"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
-                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
-                    </svg></button>
+                    <button class="btn btn-outline-secondary" id="pace" data-bs-slide="prev" aria-hidden="true" data-bs-target="#pacepackimg" tabindex="-1">&LeftAngleBracket;</button>
+                    <button class="btn btn-outline-secondary" id="pace" aria-hidden="true" data-bs-target="#pacepackimg" tabindex="-1" data-bs-slide="next">&RightAngleBracket;</button>
                 </div>
                 <div class="col-12 mt-3">
                     <div id="pacepackimg" class="carousel slide" data-bs-ride="carousel">

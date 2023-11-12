@@ -1,0 +1,56 @@
+mongo is to test the client server(query)
+mongod is used to start the backend server
+
+#To see Existing DataBase
+> show dbs
+
+#Go inside Db
+>use databasename  
+
+#To show Collections
+>show collections
+
+#To see all the data in db
+>db.collectionName.find()
+
+eg:
+>db.location.find()
+>db.location.find().pretty()
+
+#create DataBase
+>use yourdatabaseName  
+
+#Insert data in collection
+db.collectionName.insert({})
+
+db.test.insert({name:'Amit',city:'Adoni'})
+db.test.insert({_id:5,name:'Akhila',city:'Pulivendula',college:'JNTU CEP'})
+
+
+>>>U get '_id' which is a default primary key
+'_id' value should be unique
+
+//
+db.categories.insert([
+    {
+        "category_id":1,
+        "category":"Men"
+    },
+    {
+        "category_id":2,
+        "category":"Women"
+    },
+    {
+        "category_id":3,
+        "category":"Kids"
+    },
+    {
+        "category_id":4,
+        "category":"Gifts"
+    },
+    {
+        "category_id":5,
+        "category":"Sneakers"
+    }
+])
+//

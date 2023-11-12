@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <script type="text/javascript">
+
+            function hello(){
+                alert('Hello! Hope you are doing good ')
+            }
+            
+<!-- Variable -->
+
+            var lak='\nGlobalVariable';
+            function test(){
+                var lak='\nLocalVariable';
+                document.write(lak)
+            }
+            document.write(lak);
+
+          
+
+        </script>
+    </head>
+    <body>
+        <script type="text/javascript">
+            function myFunc(){
+                var str="Welcome to innerHTML"
+                const Ele=document.getElementById('inner')     ;<!--Identity of HTML element-->         
+                 Ele.innerHTML = str  
+            }
+
+         
+        </script>
+        <button onclick="hello()">Message</button>
+        <button onclick="test()">Test</button>
+        
+        <h2 id="inner">This is innerHTML</h2>
+        <button onclick="myFunc()">ClickIT</button>
+
+
+        <p> Enter Something</p>
+        <h3 id="input"> vkvj</h3>
+
+        <p> Choose your option</p>
+        <h2 id="confirm"> </h2>
+    </body>
+</html>

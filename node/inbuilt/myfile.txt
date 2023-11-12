@@ -1,0 +1,2 @@
+All the text written in this section goes to myfile.txt Appending the text to number of times the code has commanded to myfile.txt 
+ Appending the text to number of times the code has commanded to myfile.txt

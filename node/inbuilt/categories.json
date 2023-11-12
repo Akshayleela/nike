@@ -1,0 +1,22 @@
+[
+    {
+        "category_id":1,
+        "category":"Men"
+    },
+    {
+        "category_id":2,
+        "category":"Women"
+    },
+    {
+        "category_id":3,
+        "category":"Kids"
+    },
+    {
+        "category_id":4,
+        "category":"Gifts"
+    },
+    {
+        "category_id":5,
+        "category":"Sneakers"
+    }
+]

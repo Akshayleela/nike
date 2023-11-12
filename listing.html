@@ -1,0 +1,234 @@
+<html>
+    <head>
+        <title>nikelisting</title>
+    <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <link rel="stylesheet" href="listing.css" type="text/css">
+        <link rel="stylesheet" href="first.css" type="text/css">
+    </head>
+    <body>
+      <header>
+         <!--navigation bar-->
+         <div class="row" id="jordan">
+            <div class="col-sm-1">
+              <img src="images/Jordan.png" class="logo" alt="Jordan">
+            </div>
+            <div class="col-sm-7"></div>
+            <div class="col-sm-1" id="jdtxt">
+              <a href="#">Find a Store</a> 
+            </div>
+            <div class="col-sm-1" id="jdtxt">
+              <a href="#">Help</a>
+            </div>
+            <div class="col-sm-1" id="jdtxt">
+              <a href="#">Join Us</a>
+            </div>
+            <div class="col-sm-1">
+                <div class="btn dropdown " style="color:black ;" data-bs-toggle="dropdown">Sign In
+                </div> 
+                <form class="dropdown-menu">
+                    <div class="form-group Signin">  
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email">
+                        <label for="password">password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                </form>
+            </div>
+          </div>
+      </header>
+    <!-- FILTERS-->
+    <div class="row mt-5">
+      <div class="table-responsive col-sm-3">
+          <h4>FILTERS</h4>
+          <h6>Shoes</h6>
+          <h6>Hoodies & Sweatshirts</h6>
+          <h6>Trousers & Tights </h6>
+          <h6>Jackets</h6>
+          <h6>Tops & T-shirts</h6>
+          <h6>Shorts</h6>
+          <h6>Socks</h6>
+          <h6>Accessories & Equipment</h6>
+          
+          <hr/>
+          <h6>Gender</h6>
+          <div>
+          <p><input type="radio" name ="gender"/>Men</p>
+          <p><input type="radio" name ="gender"/>Women</p>
+          <p><input type="radio" name ="gender"/>Kids</p>
+          </div>
+          <hr>
+          <div>
+            <h6>Shop By Price</h6>
+            <p><input type="radio" name="price"/>Under Rs.2500</p>
+            <p><input type="radio" name="price"/>Rs.2501-Rs.7500</p>
+            <p><input type="radio" name="price"/>Rs.7501-Rs.12999</p>
+            <p><input type="radio" name="price"/>Over Rs.13000</p>
+          </div>
+          <hr>
+          <div >
+            <h6>Colour</h6>
+            <p><input type="radio" name="colour">Purple
+            <input type="radio" name="colour">Black
+            <input type="radio" name="colour">Red</p>
+            <p><input type="radio" name="colour">Blue
+            <input type="radio" name="colour">White
+            <input type="radio" name="colour">Multi-Colour</p>
+          </div>
+      </div>
+      <div class="col-sm-9">
+        <div class="row">
+          <a class="col-sm-4">
+            <div class="card">
+              <img src="listing/listingmsh1.webp" alt="menshoes"/>
+              <div class="card-body">
+                <div class="row">
+                  <h6 class="card-title col-sm-9">Nike Air More Uptempo '96</h6>
+                  <h6 class="card-title col-sm-3">₹ 15995</h6>
+                </div>
+                <h6 class="card-text">Men's Shoes</h6>
+              </div>
+            </div>
+          </a>
+          <a class="col-sm-4">
+            <div class="card">
+              <img src="listing/listingmsh2.webp" alt="menshoes"/>
+              <div class="card-body">
+                <div class="row">
+                  <h6 class="card-title col-sm-9">Nike Air Max 90 G NRG</h6>
+                  <h6 class="card-title col-sm-3">₹13995</h6>
+                </div>
+                <h6 class="card-text">Golf Shoes</h6>
+              </div>
+            </div>
+          </a>
+          <a class="col-sm-4">
+            <div class="card">
+              <img src="listing/listingmst1.webp" alt="menshorts"/>
+              <div class="card-body">
+                <div class="row">
+                  <h6 class="card-title col-sm-9">NikeCourt Dri-FIT Advantage</h6>
+                  <h6 class="card-title col-sm-3">₹3095</h6>
+                </div>
+                <h6 class="card-text">Men's 18cm (approx.) Tennis Shorts</h6>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div class="row">
+          <a class="col-sm-4">
+             <div class="card">
+            <img src="listing/listingmss1.webp" alt="menshorts"/>
+            <div class="card-body">
+              <div class="row">
+                <h6 class="card-title col-sm-9">Jordan Brooklyn Fleece</h6>
+                <h6 class="card-title col-sm-3">₹3495</h6>
+              </div>
+              <h6 class="card-text">Men's Crew-Neck Sweatshirt</h6>
+            </div>
+             </div>
+          </a>
+          <a class="col-sm-4">
+            <div class="card">
+              <img src="listing/listingmeq2.webp" alt="menequipment"/>
+              <div class="card-body">
+                <div class="row">
+                  <h6 class="card-title col-sm-9">Nike Sportswear Essentials</h6>
+                  <h6 class="card-title col-sm-3">₹1895</h6>
+                </div>
+                <h6 class="card-text">Cross-Body Bag (1L)</h6>
+              </div>
+               </div>
+          </a>
+          <a class="col-sm-4">
+            <div class="card">
+              <img src="listing/listingmts1.webp" alt="mentshirt"/>
+              <div class="card-body">
+                <div class="row">
+                  <h6 class="card-title col-sm-9">Singapore 2022/23 Stadium Home</h6>
+                  <h6 class="card-title col-sm-3">₹4695</h6>
+                </div>
+                <h6 class="card-text">Men's Nike Dri-FIT Football Shirt </h6>
+              </div>
+               </div>
+          </a>
+        </div>
+        <div class="row">
+          <s href="#" class="cl-sm-"
+        </div>
+      </div>
+    </div>
+    </body>
+    <footer>
+        <div class="container-fluid mt-4" id="footer">
+          <div class="row">
+            <div class="col-sm-9 row mt-4" id="f1">
+              <div class="col-sm-3">
+                <p><a href="#" id="foot1">FIND A STORE</a></p>
+                <p><a href="#" id="foot1">BECOME A MEMBER</a></p>
+                <p><a href="#" id="foot1">SIGN UP FOR EMAIL</a></p>
+                <p><a href="#" id="foot1">SEND US FEEDBACK</a></p>
+                <p><a href="#" id="foot1">STUDENT DISCOUNTS</a></p>
+              </div>
+              <div class="col-sm-3">
+                <p><a href="#" id="foot1">GET HELP</a></p>
+                <p ><a href="#"id="foottxt">Order Status</a></p>
+                <p ><a href="#"id="foottxt">Delivery</a></p>
+                <p ><a href="#"id="foottxt">Returns</a></p>
+                <p ><a href="#"id="foottxt">Payment Options</a></p>
+                <p ><a href="#"id="foottxt">Contact Us On Nike.com Inquiries</a></p>
+                <p ><a href="#"id="foottxt">Contact Us On All Other Inquiries</a></p>
+              </div>
+              <div class="col-sm-3">
+                <p><a href="#" id="foot1">ABOUT NIKE</a></p>
+                <p><a href="#"id="foottxt">News</a></p>
+                <p><a href="#"id="foottxt">Careers</a></p>
+                <p><a href="#"id="foottxt">Investors</a></p>
+                <p><a href="#"id="foottxt">Sustainability</a></p>
+              </div>
+              <div class="col-sm-3"></div>
+            </div>
+          <div class="col-sm-3 row mt-4">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+              <a href="https://twitter.com/Nike" target="blank">
+              <img src="images/logo-twitter-png-5863.png"  alt="twitter" class="img-fluid"/>
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a href="https://www.facebook.com/nike" target="blank">        
+              <img src="images/facebook.png" alt="facebook" class="img-fluid"/>
+              </a>
+            </div>
+            <div class="col-sm-2">
+              <a href="https://www.youtube.com/user/nike" target="blank">
+              <img src="images/youtube1.png" alt="youtube" class="img-fluid"/>
+              </a>
+            </div>
+            <div class="col-sm-2">         
+              <a href="https://instagram.com/nike" target="blank">
+              <img src="images/instagram.png" alt="instagram" class="img-fluid"/>
+              </a>
+            </div>
+          </div>
+          <div class="row" id="copyright">
+            <div class="col-1 text-end"><span><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+              <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+              <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+            </svg> India</span></div>
+            <div class="col-6 text-start">
+            <span id="f2">&copy; 2022 Nike, Inc. All Rights Reserved</span>
+            </div>
+            <div class="col-5 row text-end">
+              <div class="col-2">Guides</div>
+              <div class="col-3">Terms of Sale</div>
+              <div class="col-3">Terms of Use</div>
+              <div class="col-4">Nike Privacy Policy</div>
+            </div>
+          </div>
+        </div>
+      </footer>
+</html>

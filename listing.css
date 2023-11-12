@@ -1,0 +1,11 @@
+.Colour{
+    border-radius: 22px 22px;
+    background-color: purple;
+    height: 26px;
+    width: 26px;
+    margin-left: 4%
+}
+.table-responsive{
+    box-shadow: 1px 1px 6px;
+    height: 500px;
+}

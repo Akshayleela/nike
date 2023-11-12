@@ -1,0 +1,25 @@
+{
+  "name": "learnpackage",
+  "version": "1.0.0",
+  "description": "this is about node app",
+  "main": "first.js",
+  "scripts": {
+    "start":"node staticapi.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Akshayleela/nike.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Akshayleela/nike/issues"
+  },
+  "homepage": "https://github.com/Akshayleela/nike#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

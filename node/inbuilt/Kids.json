@@ -1,0 +1,85 @@
+{
+    "kids":[
+        {
+            "category_id":3,
+            "section":"Lifestyle",
+            "section_id":1,
+            "product_name":"Nike Sunray Protect 2 Younger Kids' Sandals",
+            "product_id":1,
+            "product_price":"2995",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/gednrh35fe0wdpdkqgys/sunray-protect-2-younger-sandals-kxrqx3.png"
+        },
+        {
+            "category_id":3,
+            "section":"Lifestyle",
+            "section_id":1,
+            "product_name":"Jordan 1 Mid Alt SE Baby/Toddler Shoes",
+            "product_id":2,
+            "product_price":"4495",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/7f153aa0-5b41-4c37-bbc3-bd5f3957914d/jordan-1-mid-alt-se-shoes-PLdQTn.png"
+        },
+        {
+            "category_id":3,
+            "section":"Lifestyle",
+            "section_id":1,
+            "product_name":"Jordan 7 Retro BBS Baby/Toddler Shoes",
+            "product_id":3,
+            "product_price":"5995",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/b4a6d2b9-dfcd-459b-8320-4c3715307cb4/jordan-7-retro-bbs-shoes-gZbRDN.png"
+        },
+        {
+            "category_id":3,
+            "section":"Running",
+            "section_id":2,
+            "product_name":"Nike Omni Multi-Court Older Kids' Indoor Court Shoes",
+            "product_id":1,
+            "product_price":"4495",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/c26f783b-7c07-4089-b4ed-308d131896d3/omni-multi-court-older-indoor-court-shoes-pK2fcM.png"
+        },
+        {
+            "category_id":3,
+            "section":"Running",
+            "section_id":2,
+            "product_name":"Nike Flex Runner 2 Younger Kids' Shoes",
+            "product_id":2,
+            "product_price":"2995",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/42524f0c-c779-4813-a1da-536ddb2f8e9b/flex-runner-2-younger-shoes-f2cCnj.png"
+        },
+        {
+            "category_id":3,
+            "section":"Running",
+            "section_id":2,
+            "product_name":"Nike Air Zoom Arcadia 2 Younger Kids' Shoes",
+            "product_id":3,
+            "product_price":"5495",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/0e33238b-f372-48a5-a733-f627defaf5bf/air-zoom-arcadia-2-younger-shoes-z8v8X7.png"
+        },
+        {
+            "category_id":3,
+            "section":"Basketball",
+            "section_id":3,
+            "product_name":"LeBron XX SE Older Kids' Basketball Shoes",
+            "product_id":1,
+            "product_price":"11995",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/cc5945aa-2d48-4441-b357-6edc7756718c/lebron-xx-se-older-basketball-shoes-rpB84m.png"
+        },
+        {
+            "category_id":3,
+            "section":"Basketball",
+            "section_id":3,
+            "product_name":"LeBron Witness 7 Younger Kids' Shoes",
+            "product_id":2,
+            "product_price":"6295",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/51ff7eab-a6cf-4457-b769-b0a8bfebfa1f/lebron-witness-7-younger-shoes-QDJM6D.png"
+        },
+        {
+            "category_id":3,
+            "section":"Basketball",
+            "section_id":3,
+            "product_name":"Freak 4 SE Younger Kids' Shoes",
+            "product_id":3,
+            "product_price":"5995",
+            "product_image":"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/dc11844c-2ee3-4cd5-8514-3bce2e2c0710/freak-4-se-younger-shoes-7X6W3t.png"
+        }
+    ]
+}
